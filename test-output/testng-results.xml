@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36631" started-at="2020-01-23T18:06:38 IST" finished-at="2020-01-23T18:07:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36631" started-at="2020-01-23T18:06:38 IST" finished-at="2020-01-23T18:07:15 IST">
+      <class name="Tests.SearchTest">
+        <test-method status="PASS" signature="ExtentReport()[pri:0, instance:Tests.SearchTest@17579e0f]" name="ExtentReport" is-config="true" duration-ms="168" started-at="2020-01-23T18:06:38 IST" finished-at="2020-01-23T18:06:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method status="PASS" signature="instantiateWebDriver()[pri:0, instance:Tests.SearchTest@17579e0f]" name="instantiateWebDriver" is-config="true" duration-ms="5323" started-at="2020-01-23T18:06:38 IST" finished-at="2020-01-23T18:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateWebDriver -->
+        <test-method status="PASS" signature="seachByEmptyString()[pri:0, instance:Tests.SearchTest@17579e0f]" name="seachByEmptyString" duration-ms="30179" started-at="2020-01-23T18:06:43 IST" finished-at="2020-01-23T18:07:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachByEmptyString -->
+        <test-method status="PASS" signature="CloseBrowers()[pri:0, instance:Tests.SearchTest@17579e0f]" name="CloseBrowers" is-config="true" duration-ms="328" started-at="2020-01-23T18:07:14 IST" finished-at="2020-01-23T18:07:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowers -->
+        <test-method status="PASS" signature="logReport(org.testng.ITestResult)[pri:0, instance:Tests.SearchTest@17579e0f]" name="logReport" is-config="true" duration-ms="20" started-at="2020-01-23T18:07:14 IST" finished-at="2020-01-23T18:07:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seachByEmptyString status=SUCCESS method=SearchTest.seachByEmptyString()[pri:0, instance:Tests.SearchTest@17579e0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logReport -->
+        <test-method status="PASS" signature="flushExtent()[pri:0, instance:Tests.SearchTest@17579e0f]" name="flushExtent" is-config="true" duration-ms="557" started-at="2020-01-23T18:07:14 IST" finished-at="2020-01-23T18:07:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtent -->
+      </class> <!-- Tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+url= https://chromedriver.storage.googleapis.com/index.html
+data=new
+kara=news
